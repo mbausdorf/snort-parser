@@ -1,7 +1,7 @@
 {
   "name": "snort-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes snort rule files and returns them in a more readable json format",
   "main": "app.js",
   "dependencies": {
     "snort-rule-parser": "^0.0.5",
@@ -11,9 +11,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "scripts": {
+  "scripts": {
     "start": "electron ."
   },
-  "author": "",
-  "license": "ISC"
+  "author": "mbausdorf",
+  "url": "https://github.com/mbausdorf/snort-parser/issues",
+  "license": "MIT"
 }
